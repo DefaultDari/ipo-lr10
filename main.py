@@ -57,15 +57,15 @@ head.append(title)
 
 style = soup.new_tag('style')
 style.string = """
-body { background: linear-gradient(135deg, #2c3e50, #3498db); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; }
-header { background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px 0; text-align: center; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+body { background: linear-gradient(115deg, #000000,#444444, #c73920); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; }
+header { background: linear-gradient(115deg, #000000,#444444, #c73920); color: #fff; padding: 20px 0; text-align: center; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
 main { padding: 20px; }
 table { border-collapse: collapse; width: 90%; margin: 20px auto; background-color: rgba(255, 255, 255, 0.95); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; }
 th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-th { background-color: #4CAF50; color: white; }
+th { background-color: #000000; color: white; }
 tr:nth-child(even) { background-color: #f9f9f9; }
 tr:hover { background-color: #f1f1f1; transition: background-color 0.3s; }
-a { color: #ff6347; text-decoration: none; }
+a { color: #ff2600; text-decoration: none; }
 a:hover { text-decoration: underline; }
 """
 head.append(style)
